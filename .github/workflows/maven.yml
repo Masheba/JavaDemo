@@ -3,10 +3,10 @@
 
 name: Java CI with Maven
 
-on:[push,pull_request]
+on: [ push, pull_request ]
 
 jobs:
-build:
+ build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
